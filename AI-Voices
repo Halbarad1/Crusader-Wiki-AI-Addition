@@ -1,1 +1,71 @@
+| AI Name | prefix | General Message |
+| :--- | :---: | :--- |
+| Index | Int32 | Unique index of each character. If you have two characters with the same index, one will replaces the other. |
+| Name | String | |
+| Personality | [AIPersonality](https://github.com/Sh0wdown/UnofficialCrusaderPatch/wiki/AI-Personality) | |
 
+The names for the Voicelines of Rat, Snake, Pig and Wolf differ from the other ones:
+
+Ratte
+
+| anger_01 | rt_anger_04 | AI attack failed | |
+| anger_02 | rt_anger_01 | AI building destroyed |  
+| nervous_01 | rt_plead_03 | AI is being attacked |  
+| nervous_02 | rt_plead_04 | AI is being attacked |  
+| nervous_01 | rt_taunt_01 | AI attacks | 
+| nervous_02 | rt_taunt_02 | AI attacks |  
+| nervous_03 | rt_taunt_05 | AI attacks | 
+| nervous_04 | rt_taunt_08 | AI attacks | 
+| vict_01 | rt_vict_01 | AI repelled enemy attack |
+| vict_02 | rt_vict_02 | AI destroyed enemy building |
+| vict_03 | rt_vict_04 | AI kills player |
+| vict_04 | rt_vict_03 | AI kills other AI |
+| plead_01 | rt_plead_01 | KI wurde getötet
+
+Schlange
+
+| anger _01 | sn_anger_03 | AI attack failed | 
+| anger_02 | sn_anger_04 | AI building destroyed | 
+| nervous_01 | sn_plead_03 | AI is being attacked | 
+| nervous_02 | sn_plead_04 | AI is being attacked | 
+| nervous_01 | sn_taunt_01 | AI attacks | 
+| nervous_02 | sn_taunt_04 | AI attacks | 
+| nervous_03 | sn_taunt_05 | AI attacks | 
+| nervous_04 | sn_taunt_07 | AI attacks | 
+| vict_01 | sn_vict_02 | AI repelled enemy attack |
+| vict_02 | sn_taunt_03 | AI destroyed enemy building |
+| vict_03 | sn_vict_03 | AI kills player |
+| vict_04 | sn_vict_04 | AI kills other AI |
+| plead_01 | sn_plead_01 | KI wurde getötet
+
+Schwein
+
+| anger_01 | pg_anger_04 | AI attack failed | 
+| anger_02 | pg_anger_02 | AI building destroyed | 
+| nervous_01 | pg_plead_03 | AI is being attacked | 
+| nervous_02 | pg_plead_04 | AI is being attacked | 
+| nervous_01 | pg_taunt_03 | AI attacks | 
+| nervous_02 | pg_taunt_04 | AI attacks | 
+| nervous_03 | pg_taunt_06 | AI attacks | 
+| nervous_04 | pg_taunt_07 | AI attacks | 
+| vict_01 | pg_vict_01 | AI repelled enemy attack 
+| vict_02 | pg_vict_02 | AI destroyed enemy building |
+| vict_03 | pg_vict_03 | AI kills player |
+| vict_04 | pg_taunt_02 | AI kills other AI |
+| plead_01 | pg_plead_01 | KI wurde getötet
+
+Wolf
+
+| anger_01 | wf_anger_04 | AI attack failed | 
+| anger_02 | wf_anger_02 | AI building destroyed | 
+| nervous_01 | wf_plead_03 | AI is being attacked | 
+| nervous_02 | wf_plead_04 | AI is being attacked | 
+| taunt_01 | wf_taunt_01 | AI attacks | 
+| taunt_02 | wf_taunt_02 | AI attacks | 
+| taunt_03 | wf_taunt_05 | AI attacks | 
+| taunt_04 | wf_taunt_06 | AI attacks | 
+| vict_01 | wf_vict_02 | AI repelled enemy attack |
+| vict_02 | wf_taunt_04 | AI destroyed enemy building |
+| vict_03 | wf_vict_01 | AI kills player |
+| vict_04 | BERATER | AI kills other AI | 
+| plead_01 | wf_plead_01 | KI wurde getötet
