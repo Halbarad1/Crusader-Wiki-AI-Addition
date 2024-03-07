@@ -1,4 +1,4 @@
-In Order to change AI voicelines, you need to go to Stronghold Crusader/fx/speech. You can find voiclines over there, sorted by a specific prefix (e. g. all voicelines of the Wolf start with "wf_"). Also, you should change the announcement (e. g. "A message from the Wolf"). Those voicelines start with "General_Message". The following table shows you where to find specific voicelines:
+Voicelines can be found in fx/speech, AI voicelines are sorted by a specific prefix (e. g. all voicelines of the Wolf start with "wf_"). The messages announcement ("A message from the Wolf") start with "General_Message". The following table shows you where to find specific voicelines:
 
 | AI Name | example | Message anouncement |
 | :--- | :---: | :--- |
@@ -18,13 +18,15 @@ In Order to change AI voicelines, you need to go to Stronghold Crusader/fx/speec
 | Sherrif | sh_anger_01 | General_Message36 |
 | Marshall | ma__anger_01 | General_Message37 |
 | Abbot | ab_anger_01 | General_Message38 |
-| Duc Messenger | all_anger_01 | - |
+| (Duc Messenger) | all_anger_01 | - |
+| (Arabian Bandit) | bada_anger_01 | - |
+| (European Bandit) | bads_anger_01 | - |
 
-In general, every AI has 33 voicelines. You can find their meaning over here: 
+Regular AIs have 33 voicelines. You can find their meaning over here: 
 
 | tag | meaning |
 | :--- | :---: | 
-| _add_player_01 | Add AI in game menu | 
+| _add_player_01 | Add AI to skirmish menu | 
 | _ally_death_01 | allied AI dies |
 | Anger_01 | hostile AI attack failed |
 | Anger_02 | hostile AI building got destroyed |
@@ -33,7 +35,7 @@ In general, every AI has 33 voicelines. You can find their meaning over here:
 | Extra_01 | game takes long time |
 | Help_01 | allied AI feels threatened and asks for help |
 | Helpsent_01 | allied AI will protect player |
-| kick_player_01 | kick AI in game menu |
+| kick_player_01 | kick AI in skirmish menu |
 | Nervous_01 | hostile AI feals threatened |
 | Nervous_01 | hostile AI feals threatened |
 | Noattack_01 | allied AI won't attack selected enemy|
@@ -63,7 +65,7 @@ In general, every AI has 33 voicelines. You can find their meaning over here:
 
 The names for the Voicelines of Rat, Snake, Pig and Wolf differ from the other ones:
 
-Rat
+
 | Regular voiceline | Rats Voiceline | meaning |
 | :--- | :---: | :--- |
 | anger_01 | rt_anger_04 | AI attack failed |
@@ -80,7 +82,7 @@ Rat
 | vict_04 | rt_vict_03 | AI kills other AI |
 | plead_01 | rt_plead_01 | AI dies |
 
-Snake
+
 
 | Regular voiceline | Snakes Voiceline | meaning |
 | :--- | :---: | :--- |
@@ -98,7 +100,6 @@ Snake
 | vict_04 | sn_vict_04 | AI kills other AI |
 | plead_01 | sn_plead_01 | AI dies |
 
-Pig (different names)
 
 | Regular voiceline | Pigs Voiceline | meaning |
 | :--- | :---: | :--- |
@@ -116,7 +117,6 @@ Pig (different names)
 | vict_04 | pg_taunt_02 | AI kills other AI |
 | plead_01 | pg_plead_01 | AI dies |
 
-Wolf (different names)
 
 | Regular voiceline | Wolfs Voiceline | meaning |
 | :--- | :---: | :--- |
@@ -134,39 +134,41 @@ Wolf (different names)
 | vict_04 | all_taunt_01 | AI kills other AI | 
 | plead_01 | wf_plead_01 | AI dies |
 
-
-The texts for the messages are in the "cr.tex". They are listed over there in the following order:
-(AI Name)
-taunt 01
-taunt 02
-taunt 03
-taunt 04
-anger 01
-anger 02
-plead
-nervous 01
-nervous 02
-vict 01
-vict 02
-vict 03
-vict 04
-req
-thanks
-ally death
-congrats
-boast
-help
-extra
-21
-22
-siege
-noattack 01
-noattack 02
-nohelp 01
-nohelp 02
-notsent
-sent
-team winning
-team losing
-helpsent
+\
+\
+\
+The texts for the messages are in the "cr.tex" file and can be accessed through the Text Compiling Tool from Stronghold Crusader Modding Utilities. They are listed in the following order: \
+(AI Name) \
+taunt 01 \
+taunt 02 \
+taunt 03 \
+taunt 04 \
+anger 01 \
+anger 02 \
+plead \
+nervous 01 \
+nervous 02 \
+vict 01 \
+vict 02 \
+vict 03 \
+vict 04 \
+req \
+thanks \
+ally death \
+congrats \
+boast \
+help \
+extra \
+21 \
+22 \
+siege \
+noattack 01 \
+noattack 02 \
+nohelp 01 \
+nohelp 02 \
+notsent \
+sent \
+team winning \
+team losing \
+helpsent \
 will attack
