@@ -1,6 +1,6 @@
 In Order to change AI voicelines, you need to go to Stronghold Crusader/fx/speech. You can find voiclines over there, sorted by a specific prefix (e. g. all voicelines of the Wolf start with "wf_"). Also, you should change the announcement (e. g. "A message from the Wolf"). Those voicelines start with "General_Message". The following table shows you where to find specific voicelines:
 
-| AI Name | example | General Message |
+| AI Name | example | Message anouncement |
 | :--- | :---: | :--- |
 | Rat | rt__anger_01 | General_Message23|
 | Snake | sn_anger_01 | General_Message24 |
@@ -18,6 +18,7 @@ In Order to change AI voicelines, you need to go to Stronghold Crusader/fx/speec
 | Sherrif | sh_anger_01 | General_Message36 |
 | Marshall | ma__anger_01 | General_Message37 |
 | Abbot | ab_anger_01 | General_Message38 |
+| Duc Messenger | all_anger_01 | - |
 
 In general, every AI has 33 voicelines. You can find their meaning over here: 
 
@@ -63,7 +64,8 @@ In general, every AI has 33 voicelines. You can find their meaning over here:
 The names for the Voicelines of Rat, Snake, Pig and Wolf differ from the other ones:
 
 Rat
-
+| Regular voiceline | Rats Voiceline | meaning |
+| :--- | :---: | :--- |
 | anger_01 | rt_anger_04 | AI attack failed |
 | anger_02 | rt_anger_01 | AI building destroyed |  
 | nervous_01 | rt_plead_03 | AI is being attacked |  
@@ -80,6 +82,8 @@ Rat
 
 Snake
 
+| Regular voiceline | Snakes Voiceline | meaning |
+| :--- | :---: | :--- |
 | anger _01 | sn_anger_03 | AI attack failed | 
 | anger_02 | sn_anger_04 | AI building destroyed | 
 | nervous_01 | sn_plead_03 | AI is being attacked | 
@@ -94,8 +98,10 @@ Snake
 | vict_04 | sn_vict_04 | AI kills other AI |
 | plead_01 | sn_plead_01 | AI dies |
 
-Pig
+Pig (different names)
 
+| Regular voiceline | Pigs Voiceline | meaning |
+| :--- | :---: | :--- |
 | anger_01 | pg_anger_04 | AI attack failed | 
 | anger_02 | pg_anger_02 | AI building destroyed | 
 | nervous_01 | pg_plead_03 | AI is being attacked | 
@@ -110,8 +116,10 @@ Pig
 | vict_04 | pg_taunt_02 | AI kills other AI |
 | plead_01 | pg_plead_01 | AI dies |
 
-Wolf
+Wolf (different names)
 
+| Regular voiceline | Wolfs Voiceline | meaning |
+| :--- | :---: | :--- |
 | anger_01 | wf_anger_04 | AI attack failed | 
 | anger_02 | wf_anger_02 | AI building destroyed | 
 | nervous_01 | wf_plead_03 | AI is being attacked | 
@@ -123,5 +131,42 @@ Wolf
 | vict_01 | wf_vict_02 | AI repelled enemy attack |
 | vict_02 | wf_taunt_04 | AI destroyed enemy building |
 | vict_03 | wf_vict_01 | AI kills player |
-| vict_04 | BERATER | AI kills other AI | 
+| vict_04 | all_taunt_01 | AI kills other AI | 
 | plead_01 | wf_plead_01 | AI dies |
+
+
+The texts for the messages are in the "cr.tex". They are listed over there in the following order:
+(AI Name)
+taunt 01
+taunt 02
+taunt 03
+taunt 04
+anger 01
+anger 02
+plead
+nervous 01
+nervous 02
+vict 01
+vict 02
+vict 03
+vict 04
+req
+thanks
+ally death
+congrats
+boast
+help
+extra
+21
+22
+siege
+noattack 01
+noattack 02
+nohelp 01
+nohelp 02
+notsent
+sent
+team winning
+team losing
+helpsent
+will attack
